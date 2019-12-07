@@ -177,7 +177,7 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%; }
+  min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -189,3 +189,28 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+
+.bio-image {
+  margin: auto;
+  border-radius: 50%;
+  border: #eeca1a 3px solid; }
+
+.bio {
+  font-size: 1.5rem;
+  padding-top: 40px; }
+
+.job {
+  background: #515151;
+  padding: 0.5rem;
+  border-bottom: #eeca1a 5px solid;
+  line-height: 1.5rem; }
+  .job.job h3,
+  .job .job h6 {
+    padding: 15px 0; }
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2b2b2b;
+  color: #fff;
+  height: 60px; }
