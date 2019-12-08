@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Protfolio Website for abmamun",
   "main": "index.js",
+  "homepage": "https://murad999.github.io/myResume",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
@@ -10,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
